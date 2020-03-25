@@ -1,0 +1,19 @@
+[2020-03-25 16:41:09.247] [INFO   ] Starting BlockchainApplication on WIN-0QDKKQVLIUO with PID 4468 (E:\Work\worklist\KMS_Restful_API\blockchain\target\classes started by Administrator in E:\Work\worklist\KMS_Restful_API)
+[2020-03-25 16:41:09.339] [INFO   ] No active profile set, falling back to default profiles: default
+[2020-03-25 16:41:13.848] [INFO   ] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$796ef487] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-03-25 16:41:15.735] [INFO   ] Tomcat initialized with port(s): 9445 (http)
+[2020-03-25 16:41:15.791] [INFO   ] Initializing ProtocolHandler ["http-nio-9445"]
+[2020-03-25 16:41:15.854] [INFO   ] Starting service [Tomcat]
+[2020-03-25 16:41:15.854] [INFO   ] Starting Servlet engine: [Apache Tomcat/9.0.16]
+[2020-03-25 16:41:15.890] [INFO   ] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JDK\jdk.1.8.121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\GO\bin;D:\Git\cmd;C:\Windows\System32\OpenSSH\;D:\JDK\jdk1.8.121\bin;D:\SVN\bin;D:\Microsoft VS Code\bin;D:\Node\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\go\bin;;D:\IDEA\IntelliJ IDEA 2019.3\bin;;D:\DataGrip\DataGrip 2019.3.3\bin;;C:\Users\Administrator\AppData\Roaming\npm;.]
+[2020-03-25 16:41:16.554] [INFO   ] Initializing Spring embedded WebApplicationContext
+[2020-03-25 16:41:16.554] [INFO   ] Root WebApplicationContext: initialization completed in 6659 ms
+[2020-03-25 16:41:18.972] [INFO   ] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[2020-03-25 16:41:19.356] [INFO   ] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-03-25 16:41:20.125] [INFO   ] Context refreshed
+[2020-03-25 16:41:20.181] [INFO   ] Found 1 custom documentation plugin(s)
+[2020-03-25 16:41:20.250] [INFO   ] Scanning for api listing references
+[2020-03-25 16:41:20.505] [INFO   ] Generating unique operation named: createNewUsingPOST_1
+[2020-03-25 16:41:20.523] [INFO   ] Starting ProtocolHandler ["http-nio-9445"]
+[2020-03-25 16:41:20.671] [INFO   ] Tomcat started on port(s): 9445 (http) with context path '/SecKMS/1.0'
+[2020-03-25 16:41:20.683] [INFO   ] Started BlockchainApplication in 13.13 seconds (JVM running for 20.958)

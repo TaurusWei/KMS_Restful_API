@@ -1,0 +1,79 @@
+server:
+  port: 9445
+  servlet:
+    context-path: /SecKMS/1.0
+# jsckson的配置参数
+
+#########################################################
+spring:
+  jackson:
+    parser:
+      #允许出现特殊字符和转义符
+      allow_unquoted_control_chars: true
+
+      #允许出现单引号
+      allow_single_quotes: true
+
+############################################################
+#
+# 配置数据源	使用阿里巴巴的durid数据源
+#
+############################################################
+  datasource:
+    url: jdbc:mysql://47.105.180.88:3306/blockchain-test?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: Xiao120315!
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    druid:
+      initial-size: 1
+      min-idle: 1
+      max-active: 20
+      test-on-borrow: true
+      stat-view-servlet:
+        allow: true
+############################################################
+#
+# mybatis 配置
+#
+############################################################
+# mybatis 配置
+mybatis:
+  type-aliases-package: com.sansec.persistence.mapper
+  mapper-locations: classpath*:mapper/*.xml
+# 通用    Mapper  配置
+mapper:
+  mappers: com.sansec.persistence.util.MyMapper
+  not-empty: false
+  identity: MYSQL
+#########################################################
+
+# swagger的配置参数
+
+#########################################################
+swagger:
+  group-Name: SecKMS
+  title: SecKMS Restful Api
+  description: SecKMS restful test tools
+  license: Apache License Version 2.0
+  version: 1.0
+  user-name: weibingtao
+  email: weibingtao@13156050650@163.com
+  #    显示指定包下的controller
+  base-package: com.sansec.blockchain.controller
+  #    对于url路径的筛选
+  antPath:
+  parameter-name: Authorization
+  parameter-type: string
+  parameter-description: token
+  type: header
+#########################################################
+
+# RestAPI
+
+#########################################################
+
+database:
+  config:
+    path: E:\applicationContext.xml
+kmsuser: visa
+tokenTimeOut: 1800000
